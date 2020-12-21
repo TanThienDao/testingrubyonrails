@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+  get 'static_pages/help'
   #get 'home/index'
 #  root 'home#index' # cach de lam index page in localhost 3000
  #root 'application#hello' 
